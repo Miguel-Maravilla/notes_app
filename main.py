@@ -14,12 +14,12 @@ from users import actions
 
 print("""
 Available actions:
-    - registration
-    - login
+    - Registration
+    - Login
 """)
 
 makeThe = actions.Actions()
-action = input("What would youu like to do? ").lower()
+action = input("What would you like to do? ").lower()
 
 if action == "registration":
     makeThe.registration()
